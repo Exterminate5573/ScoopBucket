@@ -1,5 +1,5 @@
 {
-    "version": "43",
+    "version": "45",
     "homepage": "https://vb-audio.com/Cable/index.htm",
     "description": "A virtual audio device working as virtual audio cable. All audio coming in the CABLE input is simply forwarded to the CABLE output.",
     "license": {
