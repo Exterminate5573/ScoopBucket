@@ -1,0 +1,12 @@
+{
+    "version": "",
+    "description": "The Wooting Analog SDK is the open driver for Analog keyboards. It's goal is to create native support for Analog keyboards in any game or application.",
+    "homepage": "https://github.com/WootingKb/wooting-analog-sdk",
+    "license": "MPL-2.0",
+    "url": "",
+    "hash": "",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/WootingKb/wooting-analog-sdk/releases/download/$version/wooting_analog_sdk-$version-x86_64.msi#/wooting_analog_sdk.msi"
+    }
+}
