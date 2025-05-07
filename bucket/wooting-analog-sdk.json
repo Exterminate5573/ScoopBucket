@@ -9,6 +9,13 @@
             "hash": "a06aaa5799e61c5aea6afa52077669b3bb9c3fe2ca634b21fdccd373c4290c1e"
         }
     },
+    "extract_dir": "PFiles",
+    "persist": [
+        "WootingAnalogPlugins"
+    ],
+    "env_add_path": [
+        "wooting-analog-sdk"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
