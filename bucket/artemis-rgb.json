@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://updating.artemis-rgb.com/api/artifacts/$match2#/dl.zip",
-            "hash": "61cd58c535049412a7e2993a35ec41f833e9827c00e1ebb07c1fad3fde566d93"
+            "url": "https://updating.artemis-rgb.com/api/artifacts/2599467292#/dl.zip",
+            "hash": "ddf15ce6a3162bb6652c166444c69a2630ae21ed23b9d653c800e38fa5102080"
         }
     },
     "shortcuts": [
@@ -29,7 +29,7 @@
             "   Invoke-Expression -Command \"$dir\\..\\scripts\\$app\\checkver.ps1\"",
             "}"
         ],
-        "regex": "(\\S+)"
+        "regex": "version: (\\S+) artifactId: (\\S+) md5Hash: (\\S+)"
     },
     "autoupdate": {
         "architecture": {

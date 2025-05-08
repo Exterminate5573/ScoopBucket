@@ -85,6 +85,4 @@ $windowsArtifact = $artifacts | Where-Object { $_.platform -eq 'WINDOWS' }
 $artifactId = $windowsArtifact.artifactId
 $md5Hash = $windowsArtifact.fileInfo.md5Hash
 
-$ver
-$artifactId
-$md5Hash
+"version: $ver artifactId: $artifactId md5Hash: $md5Hash"
